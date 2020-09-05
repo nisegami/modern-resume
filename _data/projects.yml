@@ -1,9 +1,94 @@
-# Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+# # Project template
+# - layout: left
+#   name: Project name
+#   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#   github: nisegami/
+#   quote: >
+#     Short overview of the project (optional)
+#   description: | # this will include new lines to allow paragraphs
+#     Description about the work on/with the project
+
+
+- layout: left
+  name: Active Safety for Autonomous Vehicles
+  dates: August 2017 – December 2018
+  description: |
+    - Part of the Virtually Integrated Projects program at Georgia Tech. Students from a variety of majors worked together to develop platforms to test and improve self-driving cars.
+    - I worked with the team that created and maintained a simulation software for self-driving and human-driven cars. The simulation software was used to conduct research on how humans interact with other cars and evaluate their trust in self-driving cars.
+    - I focused my efforts on adding Virtual Reality support to the simulator, to increase immersion and produce results that better reflect the real world. I used the Oculus platform to accomplish this.
+
+- layout: left
+  name: Walpurgisnacht
+  dates: August 2019 – December 2019
+  github: reverienest/Walpurgisnacht
+  description: |
+    - Created at VGDev, a video game development club at my University. 
+    - I was a team member on this game during the Fall 2019 semester.
+    - Walpurgisnacht is a two-player, local-multiplayer game in the bullet-hell genre.
+    - Created with Unity. 
+    - I contributed scripts that implemented character abilities and functionality, as well as state management for the game. 
+    - At the end of the semester, I received an award for my contributions from the club leadership.
+
+
+- layout: left
+  name: ArshBox
+  dates: August 2015 - Present
+  description: |
+    - Dedicated Linux server that I rent and manage. 
+      - Currently running Ubuntu Server 18.04 LTS. 
+      - Server hosted by SoYouStart.
+    - Hosts any websites and web-facing projects that I create (including this page!)
+    - Also hosts my personal instances of open-source applications:
+      - [ArshBin](https://paste.arshad.world/) - a self-hosted version of PasteBin.
+      - [ArshGit](https://git.arshad.world/) - a self-hosted replacement for GitHub powered by Gitea.
+      - Self-hosted Email powered by MailCow.
+      - nginx (as reverse proxy as well as for static content)
+      - mariadb (for the above apps and my projects)
+    - All services are containerized using Docker and managed with Docker-Compose.
+
+
+- layout: left
+  name: Grand Order Reroller
+  dates: June 2017 - August 2017
+  github: nisegami/grand-order-reroller
+  description: |
+    - Automatically plays the tutorial of the game Fate/Grand Order, records the random assignment of characters and repeats the process continuously to get the best possible starting account.
+    - Written in Python, using primarily the PyAutoGUI library. The OpenCV library was also used, along with others.
+
+- layout: left
+  name: Grand Order Companion
+  dates: January 2018  – May 2019
+  github: nisegami/grand-order-companion
+  description: |
+    - Android companion app for the game Fate/Grand Order with MVVM architecture.
+    - Written using Android Architecture Components (Room + ViewModels).
+    - Published on the Google Play Store with active users. 
+
+- layout: left
+  name: DART Consistency Checker
+  dates: March 2020 – Present
+  github: nisegami/dart-consistency-checker
+  description: |
+    - In progress Python library to optimize the deckbuilding process for the card game Yu-Gi-Oh. 
+    - Designed to be extendable by other community members.
+    - Uses a custom algorithm to simulate many thousands games and measure the performance of a particular combination of cards.
+    - GUI planned, but main focus at present is the core functionality.
+
+- layout: left
+  name: Mal.moe
+  dates: March 2016 – Present
+  github: nisegami/mal.moe-server
+  description: |
+    - Server software that scrapes various sites for images and saves them into categories provided by the user, then makes those images available via a REST API.  
+    - Written in Python using Flask to serve API and web version. 
+    - Uses Flask-SQLAlchemy for database functionality. 
+    - Android App, Discord Bot and Chrome Extension all written in their respective languages.
+
+- layout: left
+  name: Best of /r/NoSleep
+  dates: December 2016 - Present
+  github: nisegami/best-of-nosleep
+  description: |
+    - Reddit bot that powers the /r/best_of_nosleep subreddit, which links to the best /r/nosleep stories every day. 
+    - Written in Python, using Praw. 
+    - Hosted on my personal server. 

@@ -1,10 +1,53 @@
-# Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
+  company: Ministry of Education
+  job_title: Associate Professional in the Educational Planning Division
+  dates: January 2020 - Present
+  description: |
+    Content Expert for the Implementation of Artificial Intelligence into the Curriculum
+      - Served as the subject matter expert for a Ministry of Education initiative seeking to integrate artificial intelligence (AI) into the curriculim of Trinidad and Tobago.
+      - Provided expertise regarding topics such as:
+        - What is AI?
+        - How can AI assisst teaching and learning?
+        - Can we adapt the core principles of AI to students of all ages?
+      - Attended many meetings with key figures in the education sector.
+      - Participated in a collaborate effort with local non-profit RSC and IBM to make available online to local teachers materials produced by IBM for teachers in the US that help train them on integrating AI in their classes.
+      
+    Principle Developer of a replacement system for an Access Database used by the Educational Planning Division
+      - Current system uses Microsoft Access and has not been updated to reflect the needs of the Division in at least 10 years. 
+      - Purpose of the system was to store and report on data obtained from schools yearly. 
+      - Replacement system improves in several key ways:
+        - Split into a REST API backend and Web SPA frontend.
+          - Backend written in Python using the FastAPI and SQLAlchemy libraries.
+          - Frontend written in Javascript using the Vue framework and Vuex, Vue-Router and Vuetify libraries. 
+        - Object modelling placed an emphasis on adaptability to reflect changing needs over time, allowing the system to adapt over time. 
+        - Replacement system placed a great emphasis on preventing errors:
+          - Excel documents (the current form of the survey) are read automatically, freeing up staff resources and eliminating data entry errors.
+          - All data provided to the system is checked for consistency and errors are flagged and reported.
+          - As of August 2020, my system was able to identify over 4000 outstanding errors in the surveys collected for the 2019-2020 academic year and provide a report on errors at the school and district level.
+
+    Participated in the following committees, providing technical expertise:
+      - Remote Learning Policy Creation Committee
+      - Education Management and Information System Population Committee
+      - E-book Initiative Committee
+      - Sub-committee for Improvement of the Education Data Management System
+
+
+- layout: left
+  company: Georgia Institute of Technology
+  job_title: Head Teaching Assistant for CS 2340 - Objects and Design
   dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+  description: |
+    - This class exposes students to the development of a semester long project as a team by building an Android app. Students are also required to use git, learn about UML design tools and about the agile development workflow. 
+    - Teaching assistant duties include working with several teams over the course of the semester and mentoring them through the development process, providing technical assistance with their app as well as support with the process of working as a team. Duties also include grading assignments, answers questions/emails and holding office hours. 
+    - As of January 2018, I am the head teaching assistant for this class and manage a team of 17 other teaching assistants. This involves taking on the responsibility of being the main point of contact for students and the other teaching assistants as well as planning and designing assignments.
+
+
+- layout: left
+  company: Carib Glassworks
+  job_title: Summer Intern in ICT Department
+  dates: June 2019 - August 2019
+  description: |
+    - Created administrative tools using the Microsoft SharePoint/PowerApps/Flow stack.
+    - Created a web app to record manufacturing data using ASP.NET Core and Entity Framework Core. 
+      - Replaces current system built on the Microsoft Access 97 platform.
+      - Provided extensive documentation to help with further development.

@@ -14,19 +14,25 @@
         {%- include gtm_body.html -%}
       {%- endif -%}
 
-      {%- include about.html -%}
-
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
+      <!-- {%- include about.html -%} -->
 
       {%- if site.data.experience.size > 0 -%}
         {%- include experience.html -%}
       {%- endif -%}
 
+      <p style="page-break-before: always"></p>
+
       {%- if site.data.education.size > 0 -%}
         {%- include education.html -%}
       {%- endif -%}
+
+      <p style="page-break-before: always"></p>
+
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
+      {%- endif -%}
+
+      <p style="page-break-before: always"></p>
 
       {%- if site.more_content -%}
         {%- include more.html -%}

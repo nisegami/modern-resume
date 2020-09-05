@@ -1,8 +1,16 @@
 <div class="container more-container">
   <h3>{{ site.more_title | default: "A Little More About Me" }}</h3>
-  <div class="row clearfix">
-    <div class="col-md-12">
-      {{ site.more_content | strip | markdownify }}
+  <div class="row clearfix justify-content-center">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12">
+      {{ site.more_content.one | strip | markdownify }}
+    </div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12">
+      {{ site.more_content.two | strip | markdownify }}
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12">
+      {{ site.more_content.three | strip | markdownify }}
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12">
+      {{ site.more_content.four | strip | markdownify }}
     </div>
   </div>
 </div>

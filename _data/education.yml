@@ -1,9 +1,46 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+  name: Georgia Institue of Technology
+  dates: January 2016 - December 2019
+  qualification: BSc in Computer Science with Highest Honors
+  description: |
+    GPA: 3.90 / 4.00  
+    Areas of Focus: Intelligence & Information Internetworks  
+    Courses include:   
+      - Machine Learning (Grade: A)
+      - Game AI (Grade: A)
+      - Design and Analysis of Algorithms (Grade: A)
+      - Objects and Design (Grade: A)
+      - Introduction to Database Systems (Grade: A)
+      - Computer Networking I (Grade: A)
+      - Introduction to Systems and Networking (Grade: A)
+
+- layout: left
+  name: Presentation College, Chaguanas
+  dates: September 2007 - June 2014
+  qualification: Open Advanced Level Scholarship Obtained
+  description: |
+    Distinctions in:
+      - CAPE
+        - Applied Mathematics Unit 1 and 2
+        - Pure Mathematics Unit 1 and 2
+        - Physics Unit 1 and 2
+        - Chemistry Unit 1 and 2
+        - Caribbean Studies
+        - Communication Studies
+      - CSEC
+        - Mathematics
+        - English A
+        - Information Technology
+        - Additional Mathematics
+        - Physics
+        - Chemistry
+        - Biology  
+
+    Merit List Placements (Caribbean):
+      - 1st in CSEC Mathematics
+      - 9th in CSEC Additional Mathematics
+      - 2nd in CAPE Applied Mathematics Unit 1
+      - 4th in CAPE Applied Mathematics Unit 2
+      - 5th in CAPE Physics Unit 2
+

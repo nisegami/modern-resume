@@ -3,10 +3,10 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll
-    container_name: modern-resume-theme
+    container_name: resume
     command: jekyll serve --watch --force_polling --verbose
     ports:
-      - 4000:4000
-      - 35729:35729
+      - 4099:4000
+      - 35711:35729
     volumes:
       - ./:/srv/jekyll

@@ -3,3 +3,9 @@
 ---
 
 @import 'modern-resume-theme';
+
+body {
+  @media print {
+    font-size: 0.9rem;
+  }
+}
